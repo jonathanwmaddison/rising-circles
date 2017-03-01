@@ -13,3 +13,9 @@ body, html {
 	color: black;
 	background-color: white;
 }
+.mobileButton {
+	height: 20px;
+	width: 20px;
+	padding: 10px;
+	display: inline-block
+}
