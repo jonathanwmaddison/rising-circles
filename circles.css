@@ -19,3 +19,13 @@ body, html {
 	padding: 10px;
 	display: inline-block
 }
+#pause {
+	background: orange;
+	color: white;
+	margin-left: 30%;
+}
+#restart {
+	background: red;
+	color: white;
+}
+button:focus {outline:0;}
