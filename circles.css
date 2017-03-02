@@ -37,4 +37,6 @@ button:focus {
 .text {
 	padding-top: 2px;
 }
-
+.toggleGroup {
+	font-size: .7rem;
+}
