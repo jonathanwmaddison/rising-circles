@@ -37,6 +37,7 @@ button:focus {
 .text {
 	padding-top: 2px;
 }
-.toggleGroup {
+.toggleGroup, #tempoSlider {
 	font-size: .7rem;
+	display: inline;
 }
