@@ -14,8 +14,8 @@ body, html {
 	background-color: white;
 }
 .mobileButton {
-	height: 5%;
-	width: 5%;
+	width: 40px;
+	height: 40px;
 	display: inline-block;
 	text-align: center;
 	border-radius: 100%;
@@ -23,7 +23,6 @@ body, html {
 #pause {
 	background: orange;
 	color: white;
-	margin-left: 40%;
 }
 #restart {
 	background: red;
