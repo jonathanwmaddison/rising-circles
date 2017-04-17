@@ -2,21 +2,15 @@
 <html>
 <head>
 	<title>Circles</title>
-	
 	<script type="text/javascript" src="lib/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="lib/howler.min.js"></script>
-	
 	<link rel="stylesheet" type="text/css" href="circles.css">
 	<script type="text/javascript" src="lib/paper-full.js"></script>
 	<script type="text/paperscript" src="lib/circles.js" canvas="myCanvas">
 	</script>
 		<link rel="image_src" href="lib/screenshot.png" />
-
 </head>
 <body>
-
-
-
 <canvas id="myCanvas" resize>
 </canvas>
 
@@ -25,7 +19,7 @@
 	<button id="metro">Metronome</button>
 	<button id="undo">Undo</button>
 	<button id="pause">Pause</button>
-	<button id="restart">Restart</button>
+
 	<form class="toggleGroup"> Toggle Sounds
 		<input type="radio" name="soundbanks" value="sounds" checked> A
 		<input type="radio" name="soundbanks" value="sounds2"> B
@@ -38,7 +32,8 @@
   	<form id="tempoSlider">
  		<label for="points">Tempo:</label>
  		<input type="range" name="points" id="points" value="5" min="0" max="10">
- 	</form>
+ 	</form>  	
+    <button id="restart">Restart</button>
 </div>
 </body>
 </html>
